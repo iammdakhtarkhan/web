@@ -1,0 +1,362 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:  rgb(217, 240, 241);
+    color: white;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Handjet', cursive;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(70 203 152);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+    cursor: pointer;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: rgb(102, 102, 163);
+    text-decoration: underline;
+}
+
+
+.logo {
+    display: flex;
+    font-size: 2rem;
+  }
+  .logo div img {
+    height: 173px;
+    width: 154px;
+    padding-top: 47px;
+    padding-bottom: 11px;
+  }
+  .logo div p {
+    width: 190px;
+    height: 126px;
+    margin-top: 5.2rem;
+  }
+
+
+/* media queries LINE 66-82 */
+
+@media (max-width: 640px) {
+    nav {
+        display: inline-flex;
+        text-align: center;
+        height: 100px;
+        width: max-content;
+    }
+
+    nav ul {
+        flex-direction: row;
+    }
+
+    nav li {
+        margin: 0.8em 0;
+    }
+}
+
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 35px 0px;
+
+}
+
+@media (max-width: 640px) {
+    .firstSection {
+        display: inline-block;
+    }
+}
+
+.leftSection {
+    width: 30%;
+    /* background-color: red; */
+    font-size: 3.5rem;
+    margin: 45px 37px;
+    color: rgb(60 118 7);
+}
+
+@media (max-width: 640px) {
+    .leftSection {
+        width: auto;
+    }
+
+    .leftSection div {
+        width: max-content;
+    }
+}
+
+/* .rightSection {
+    /* width: 30%; */
+/* background-color: red; */
+/* width: 100px 
+} */
+
+.rightSection img {
+    width: 450px;
+    padding: 45px;
+}
+
+/* .purple{
+color: rgb(201, 155, 245);
+} */
+#element {
+    color: rgb(66 23 106);
+    font-size: 2.7rem;
+}
+
+.btn {
+    /* border: 2px solid red; */
+    margin: 34px 15px;
+}
+
+.button1 {
+    /* margin: 20px 30px; */
+    background-color: rgb(1, 1, 34);
+    color: white;
+    height: 4rem;
+    width: 8rem;
+    border: none;
+    font-size: xx-large;
+    border: 2px solid white;
+    border-radius: 6px;
+}
+
+.button1:hover {
+    background-color: rgb(47, 47, 73);
+    cursor: pointer;
+}
+
+main hr {
+    border: 0;
+    background-color: rgb(103, 107, 161);
+    height: 1.2px;
+    margin: 40px 85px;
+}
+
+.secondSection {
+    max-width: 80vh;
+    margin: auto;
+}
+
+.secondSection h1 {
+    font-size: 1.9rem;
+}
+
+.text-grey {
+    color: grey;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    border: 3px solid rgb(201, 201, 245);
+    margin: 15px 214px;
+    padding: 25px;
+    background-color: rgb(56 98 63);
+}
+
+@media (max-width: 640px) {
+    .container {
+        display: inline-block;
+        padding-top: 0px;
+        margin-left: 50px;
+        margin-right: auto;
+    }
+
+    .box {
+        margin-top: 2rem;
+    }
+}
+
+
+.thead {
+    text-align: center;
+    font-size: xx-large;
+    line-height: 2rem;
+    color: aquamarine;
+    padding: 2rem;
+    padding: 5rem;
+    width: 4rem;
+    column-span: none;
+    /* height: 15rem; */
+}
+
+.Datesfee tr td {
+    /* border: 2px solid rgb(118, 236, 114); */
+    justify-content: center;
+    /* width: 26rem; */
+    font-size: large;
+}
+
+.datescol {
+    width: 14rem;
+    padding-left: 22px;
+}
+
+#feecol {
+    width: 30rem;
+    padding-left: 74px;
+}
+
+tbody #r2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/* #r2>* {
+margin: 0 10px;
+flex: 1 1 200px;
+} */
+.box {
+    text-align: center;
+    font-size: large;
+    font-style: oblique;
+    height: 521px;
+    width: 53rem;
+    /* border: 2px solid red; */
+    background-color: rgb(56 98 63);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    border-radius: 4px;
+    padding: 0.5rem;
+    flex-basis: 236px;
+box-shadow: 2px 10px 10px 10px rgb(127 240 174 / 20%);
+
+animation: 1s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0s 1 alternate sun-rise;
+text-align: center;
+
+}
+@keyframes sun-rise {
+from {
+    /* pushes the sun down past the viewport */
+    transform: translateY(110vh);
+}
+
+to {
+    /* returns the sun to its default position */
+    transform: translateY(0);
+}
+}
+
+#pid-1 {
+   background-color: rgb(188, 238, 188);
+    /* border: 2px solid black; */
+}
+
+#pid-2 {
+ background-color: rgb(233, 205, 172);
+    /* border: 2px solid black; */
+}
+
+#pid-3 {
+   background-color: rgb(190, 228, 238);
+    /* border: 2px solid black; */
+}
+
+#pid-4 {
+    background-color: azure;
+    /* border: 2px solid black; */
+}
+
+.tab1 {
+    width: 36rem;
+    list-style: inside;
+}
+.pcont{
+    border-radius: 1.5rem;
+}
+
+.box-align {
+    margin: 1.5rem;
+    font-size: xx-large;
+    width: 22rem;
+    color: black;
+}
+
+.box-align button {
+    text-decoration: none;
+    font-size: x-large;
+    cursor: pointer;
+}
+.box-align button a{
+    text-decoration: none;
+}
+.box-align button a:hover{
+    text-decoration: underline;
+    background-color: rgb(209, 247, 232);
+}
+.foot{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 3rem;
+    background-color: rgb(70 203 152);
+}
+.nav-foot ul{
+    list-style: none;
+    display: flex;
+    color: aliceblue;
+}
+.nav-foot ul li{
+    list-style: none;
+    margin: 0 23px;
+    cursor: pointer;
+    
+}
+.nav-foot ul li a{
+    color: white;
+    text-decoration: none;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 5px;
+    font-size: large;
+    background-color: rgb(70 203 152);
+}
+
+.data{
+    display: block;
+    /* margin: auto; */
+}
+.fix{
+    display: table-cell;
+    width: 56rem;
+}
+#tab-fix{
+    width: fit-content;
+}
+.portal{
+    border: none;
+}
