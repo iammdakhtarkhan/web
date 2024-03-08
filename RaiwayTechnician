@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&family=Handjet&family=Playfair+Display:ital@1&family=Quicksand&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="pageFormat.css">
+    <title>Railway RRB Technician Online Form 2024</title>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">Apply Karo</div>
+            <div class="nav">
+                <ul>
+                    <li><a href="http://127.0.0.1:5500/index.html">Home</a></li>
+                    <li><a href="http://127.0.0.1:5500/Project/post-page.html">Latest Vacancy</a></li>
+                    <li><a href="http://127.0.0.1:5500/Project/admitcard-page.html">Admit Card</a></li>
+                    <li><a href="http://127.0.0.1:5500/Project/result-page.html">Results</a></li>
+                    <li><a href="http://127.0.0.1:5500/Project/answerkey-page.html">Answer Key</a></li>
+                    <li><a href="http://127.0.0.1:5500/Project/syllabus-page.html">Syllabus</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hello!
+                <div>Search & Apply</div>
+                <!-- <div class="purple">Web Developer</div> -->
+                <span id="element"></span>
+                <!-- <div class="btn">
+                    <button class="button1" id="btn1">Signup</button>
+                    <button class="button1">Signin</button>
+                </div> -->
+            </div>
+            <div class="rightSection">
+                <img src="bg.png" alt="pic">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <!-- <span class="text-grey">What I have done so far</span> -->
+            <h1 id="mhead" style="color: black;">Let's search your job & related terms</h1>
+        </section>
+        <div class="container">
+            <h1>PAGE-!</h1>
+        </div>
+        <div class="container">
+            <table>
+                <thead class="thead">
+                    <tr>
+                        <td>Railway Recruitment Board (RRB)</td>
+                    </tr>
+                    <tr>
+                        <td>Railway Technician Recruitment 2024</td>
+                    </tr>
+                    <tr>
+                        <td>RRB Advt No. : CEN 02/2024 :  Short Details of Notification</td>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+        <div class="container">
+            <table border="2">
+                <thead class="Datesfee">
+                    <tr>
+                        <td class="datescol" style="width: 21rem;">
+                            <ul>
+                                <h2>Important Dates</h2>
+                                <li>Application Begin : <b>09/03/2024</b></li>
+                                <li>Last Date for Registration : <b>08/04/2024</b></li>
+                                <li>Pay Exam fee last date : <b>08/04/2024</b></li>
+                                <li>Correction / Modified Form : <b>As per Scheduleb></li>
+                                <li>Exam Date : <b>October / December 2024</b></li>
+                                <li>Admit Card : <b>Before Exam</b></li>
+                            </ul>
+                        </td>
+                        <td id="feecol">
+                            <ul>
+                                <h2>Application Fee </h2>
+                                <li>General / OBC / EWS : <b>500/- </li>
+                                <li>SC / ST / PH : <b>250/- </li>
+                                <li>All Category Female : <b>250/- </li>
+                                <li><b>After Appear the Stage I Exam</b></li>
+                                 <li>General / OBC / EWS Fee Refund : <b>400/- </li>
+                                <li>SC / ST / PH / Female Fee Refund: <b>250/- </li>
+                                <li>Pay the Examination Fee Through Debit Card, Credit Card, Net Banking Fee Mode Only.</li>
+
+                            </ul>
+                        </td>
+                    </tr>
+                </thead>
+            </table>
+
+        </div>
+
+        <div class="container" style="display: block;">
+            <h2>Railway Technician Notification 2024 : Age Limit as on 01/07/2024</h2> <br>
+            <ul>
+                <li>Minimum Age : <b>18 Years.</b></li>
+                <li>Maximum :<b> 36 Years for Technical Gr I Signal </b></li>
+                <li>Maximum :<b> 33 Years for Technical Gr III Signal </b></li>
+                <li><b>Age Relaxation Extra as per Railway Recruitment Board RRB Technician Recruitment Advt No. CEN 02/2024 Vacancy Rules.</b></li>
+            </ul>
+        </div>
+
+        <div class="container" style="display: block;">
+            <!-- <h2>RRB Technician Recruitment 2024 :  Vacancy Details Total : 9144 Post</h2>
+            <br>
+              <table border="1" style="width: 54rem;">
+                <thead>
+
+                    <th>
+                        <tr>
+                            <td><b>Post Name</b></td>
+                            <td><b>Total Post</b></td>
+                            <td><b>Railway RRB Technician Eligibility 2024</b></td>
+                        </tr>
+                    </th>
+                    <tr>
+                        <td>Technician Gr I Signal</td>
+                        <td>1092</td>
+                        <td>
+                            <ul class="tab1">
+                                <li>BE / B.Tech / Engineering Diploma / B.SC Engineering Degree.</li>
+                            </ul>
+                        </td>
+                    </tr>
+                           <tr>
+                        <td>Technician Gr III</td>
+                        <td>8052</td>
+                        <td>
+                            <ul class="tab1">
+                                <li>Class 10th with ITI Certficiate in Related Trade.li>
+                            </ul>
+                        </td>
+                    </tr>
+
+                </thead>
+            </table>
+            <h1>For Vacancy Details: Read notifications</h1>
+
+
+        </div>
+
+        <div class="fill container" style="display: block;">
+            <h1>How to Fill Railway RRB Technician Online Form 2024</h1>
+            <br>
+            <ul>
+                <li>Railway Recruitment Board RRB Online Released Technician Recruitment Advt No. CEN 02/2024 Exam. Candidate Can Apply Between March 2024 to April 2024.</li>
+                <li>Candidate Read the Notification Before Apply the Recruitment Application Form in Railway Board Technician Exam 2024 Advt No. 02/2024 Exam Online Form 2024.
+                </li>
+                <liKindly Check and Collect the All Document - Eligibility, ID Proof, Address Details, Basic Details.</li>
+                <li>Kindly Ready Scan Document Related to Admission Entrance Form - Photo, Sign, ID Proof, Etc. </li>
+                <li>Before Submit the Application Form Must Check the Preview and All Column Carefully.</li>
+                <li>Take A Print Out of Final Submitted Form.</li>
+            </ul>
+        </div>
+
+
+        <div class="container">
+
+            <div class="box">
+                <div class="pcont" id="pid-1">
+                    <div class="box-align">Apply Online</div>
+                    <div class="box-align"><button><a href="https://www.rrbapply.gov.in/" target="_blank">Click here</a></button></div>
+                    <div class="box-align"> Link Activate on : 09/04/2024 </div>
+                </div>
+                <div class="pcont" id="pid-2">
+                    <div class="box-align">Download Notification</div>
+                    <div class="box-align"><button><a
+                                href="https://www.rrbgkp.gov.in/notices/Detailed%20CEN%2002-2024%20-%20English.pdf"
+                                target="_blank">Click here</a></button></div>
+
+                </div>
+                        <div class="pcont" id="pid-2">
+                    <div class="box-align">Download Notification</div>
+                    <div class="box-align"><button><a
+                                href="https://www.rrbgkp.gov.in/notices/Detailed%20CEN%2002-2024%20-%20Hindi.pdf"
+                                target="_blank">Click here</a></button></div>
+
+                </div>
+                <div class="pcont" id="pid-3">
+                    <div class="box-align">Official Website</div>
+                    <div class="box-align"><button><a href="https://indianrailways.gov.in/" target="_blank">Click
+                                here</a></button></div>
+                </div>
+               
+            </div>
+        </div>
+
+
+    </main>
+    <footer>
+        <div class="foot">
+            <div class="logo">Apply Karo</div>
+            <div class="nav-foot">
+                <ul>
+                    <li><a href="http://127.0.0.1:5500/index.html">Home</a></li>
+                    <li><a href="http://127.0.0.1:5500/Project/post-page.html">Latest Vacancy</a></li>
+                    <li><a href="http://127.0.0.1:5500/Project/admitcard-page.html">Admit Card</a></li>
+                    <li><a href="http://127.0.0.1:5500/Project/result-page.html">Results</a></li>
+                    <li><a href="http://127.0.0.1:5500/Project/answerkey-page.html">Answer Key</a></li>
+                    <li><a href="http://127.0.0.1:5500/Project/syllabus-page.html">Syllabus</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <i class="fa-regular fa-copyright" style="color: #edf3ee;">© All copyrights are reserved.</i>
+
+        </div>
+    </footer>
+
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Explore your perfect job.'],
+            typeSpeed: 60,
+        });
+    </script>
+
+</body>
+
+</html>
+</body>
+
+</html>
